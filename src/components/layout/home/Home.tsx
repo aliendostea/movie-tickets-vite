@@ -215,6 +215,8 @@ const Home = () => {
     });
   };
 
+  console.log("import.meta.env", import.meta.env);
+
   if (isLoadingTestActive) {
     return (
       <HomeStyles>

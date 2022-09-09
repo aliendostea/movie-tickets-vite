@@ -1,5 +1,4 @@
 import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
-console.log("import.meta.env", import.meta.env);
 
 export const client = new ApolloClient({
   connectToDevTools: true,
