@@ -215,8 +215,6 @@ const Home = () => {
     });
   };
 
-  console.log("import.meta.env", import.meta.env);
-
   if (isLoadingTestActive) {
     return (
       <HomeStyles>
@@ -234,6 +232,7 @@ const Home = () => {
 
   return (
     <HomeStyles>
+      <span>test</span>
       <HomeStylesElementBg bg={currentColor} />
       <SwiperContainer setCurrentIndexCard={setCurrentIndexCard}>
         {movies?.map((movie, index) => (
