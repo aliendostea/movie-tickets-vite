@@ -4,6 +4,6 @@ export const client = new ApolloClient({
   connectToDevTools: true,
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: import.meta.env.VITE_APOLLO_CLIENT_URI,
+    uri: "https://movie-tickets-demo-vitet-ts-29cd.netlify.app/.netlify/functions/graphql",
   }),
 });

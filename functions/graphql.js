@@ -574,7 +574,8 @@ const server = new ApolloServer({
   playground: true,
 });
 
-exports.handler = server.createHandler();
+export default server.createHandler();
+// exports.handler = server.createHandler();
 
 /* server.listen().then(({ url }) => {
   console.log(`Server ready at ${url}`);
