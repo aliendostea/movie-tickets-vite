@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build && netlify-lambda build functions",
+    "build": "tsc && vite build netlify-lambda build functions",
     "preview": "vite preview"
   },
   "dependencies": {
